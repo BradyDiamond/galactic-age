@@ -31,4 +31,9 @@ marsLife() {
 jupLife() { 
   return parseFloat((this.life / 11.86).toFixed(2));
 }
+mercYearsLeft() {
+  let mercAge = parseFloat(this.mercAge().toFixed(2));
+  let mercYear = parseFloat(this.mercLife().toFixed(2));
+    return parseFloat(parseFloat(mercYear - mercAge).toFixed(2));
+}
 };

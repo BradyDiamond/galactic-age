@@ -48,6 +48,11 @@ describe(`life expectancy`, () => {
     const userAge = new User(20, "female");
     expect(userAge.jupLife()).toEqual(6.83);
   });
+  test(`It should find the users years left on mercury.`, () => {
+        const userAge = new User(20, "female");
+        expect(userAge.mercYearsLeft()).toEqual(254.17);
+      });
+
 });
 // describe(`life expectancy`, () => {
   
