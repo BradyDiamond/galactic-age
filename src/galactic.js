@@ -5,4 +5,7 @@ export class User {
   mercAge() { 
    return this.age * .24;
   }
+  venAge() { 
+    return this.age * .62;
+   }
 };

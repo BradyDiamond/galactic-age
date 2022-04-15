@@ -13,4 +13,11 @@ describe(`age`, () => {
 
     expect(userAge.mercAge()).toEqual(24);
   });
+  test(`It should find the users age in venus years.`, () => {
+    const userAge = new User(100);
+    userAge.venAge();
+
+    expect(userAge.venAge()).toEqual(62);
+  });
+
 });
