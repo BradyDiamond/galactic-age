@@ -35,6 +35,7 @@ mercYearsLeft() {
   let mercAge = parseFloat(this.mercAge().toFixed(2));
   let mercYear = parseFloat(this.mercLife().toFixed(2));
     return parseFloat(parseFloat(mercYear - mercAge).toFixed(2));
+
 }
 venYearsLeft() {
   let venAge = parseFloat(this.venAge().toFixed(2));

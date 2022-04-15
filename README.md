@@ -1,31 +1,32 @@
-# (Application Name)
+# (Galactic Age)
 
-#### (Brief Description of Application)
+#### (determines how old you are on other planets)
 
 #### By (Your Name Here)
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
 
 ## Description
-
+_this site will show users how old they are and how long theyre expected to live on other planets_
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_this webite is availible through my profile located at https://github.com/BradyDiamond_
+
+_Using "git clone" add this repository to your desktop_
+_In the cloned folder open "index.html"_
+_select your toppings and press "buy my pie" to see your total_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+_currently not functional_
 
 ## License
+_licensed under the [MIT License] (LICENSE)_
+
+_Copyright (c) _2022_ _Brady Diamond_ 
 
 ## Contact Information
