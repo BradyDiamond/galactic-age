@@ -6,7 +6,6 @@ import {User} from "../src/galactic-age.js";
 
 
 
-(document).ready(function() {
   $("form#input").submit(function(event) {
     event.preventDefault();
     const age = $('#user-age').val();
@@ -31,4 +30,3 @@ import {User} from "../src/galactic-age.js";
     }
     $("#output").text("you are " + result + " years old on " + resultPlanet + " you're expected to live another " + yearsLeft + " years!" );
   });
-});

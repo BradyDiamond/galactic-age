@@ -35,7 +35,6 @@ mercYearsLeft() {
   let mercAge = parseFloat(this.mercAge().toFixed(2));
   let mercYear = parseFloat(this.mercLife().toFixed(2));
     return parseFloat(parseFloat(mercYear - mercAge).toFixed(2));
-
 }
 venYearsLeft() {
   let venAge = parseFloat(this.venAge().toFixed(2));
@@ -50,6 +49,11 @@ marsYearsLeft() {
 jupYearsLeft() {
   let jupAge = parseFloat(this.jupAge().toFixed(2));
   let jupYear = parseFloat(this.jupLife().toFixed(2));
-    return parseFloat(parseFloat(jupYear - jupAge).toFixed(2));
+  let result = parseFloat(parseFloat(jupYear - jupAge).toFixed(2));
+  if (result >= 0) {
+  return result
+} else {
+  return (result * -1)
+}
 }
 };

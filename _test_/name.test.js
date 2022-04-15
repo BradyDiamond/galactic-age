@@ -64,8 +64,8 @@ describe(`life expectancy`, () => {
     const userAge = new User(20, "female");
       expect(userAge.jupYearsLeft()).toEqual(5.14);
   });
-  test(`It should return.`, () => {
-    const userAge = new User(20, "female");
-      expect(userAge.jupYearsLeft()).toEqual(5.14);
+  test(`It should return a positive number if life expectancy has already been exceeded`, () => {
+    const userAge = new User(100, "female");
+      expect(userAge.jupYearsLeft()).toEqual(1.6);
   });
 });
