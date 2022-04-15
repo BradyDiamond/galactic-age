@@ -1,5 +1,5 @@
-export class Age {
-  constructor(name, age)
-this.name
-this.age
+export class User {
+  constructor(age) {
+    this.age = age;
+}
 }
