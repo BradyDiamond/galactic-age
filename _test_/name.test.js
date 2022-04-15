@@ -7,17 +7,25 @@ describe(`age`, () => {
 
     expect(userAge.age).toEqual(20);
 });
+
   test(`It should find the users age in mercury years.`, () => {
     const userAge = new User(100);
-    userAge.mercAge();
+ 
 
     expect(userAge.mercAge()).toEqual(24);
   });
+
   test(`It should find the users age in venus years.`, () => {
     const userAge = new User(100);
-    userAge.venAge();
 
     expect(userAge.venAge()).toEqual(62);
+  });
+
+  test(`It should find the users age in mars years.`, () => {
+    const userAge = new User(100);
+  
+
+    expect(userAge.marsAge()).toEqual(188);
   });
 
 });
