@@ -11,5 +11,12 @@ export class User {
    marsAge() { 
     return this.age * 1.88;
    }
+   jupAge() { 
+    return this.age * 11.86;
+   }
    
 };
+export class UserLife {
+  constructor(age) {
+    this.age = age;
+}
