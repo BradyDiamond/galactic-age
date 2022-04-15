@@ -34,17 +34,32 @@ jupLife() {
 mercYearsLeft() {
   let mercAge = parseFloat(this.mercAge().toFixed(2));
   let mercYear = parseFloat(this.mercLife().toFixed(2));
-    return parseFloat(parseFloat(mercYear - mercAge).toFixed(2));
+    let result= parseFloat(parseFloat(mercYear - mercAge).toFixed(2));
+    if (result >= 0) {
+      return result
+    } else {
+      return (result * -1)
+    }
 }
 venYearsLeft() {
   let venAge = parseFloat(this.venAge().toFixed(2));
   let venYear = parseFloat(this.venLife().toFixed(2));
-    return parseFloat(parseFloat(venYear - venAge).toFixed(2));
+    let result= parseFloat(parseFloat(venYear - venAge).toFixed(2));
+    if (result >= 0) {
+      return result
+    } else {
+      return (result * -1)
+    }
 }
 marsYearsLeft() {
   let marsAge = parseFloat(this.marsAge().toFixed(2));
   let marsYear = parseFloat(this.marsLife().toFixed(2));
-    return parseFloat(parseFloat(marsYear - marsAge).toFixed(2));
+    let result = parseFloat(parseFloat(marsYear - marsAge).toFixed(2));
+    if (result >= 0) {
+      return result
+    } else {
+      return (result * -1)
+    }
 }
 jupYearsLeft() {
   let jupAge = parseFloat(this.jupAge().toFixed(2));
