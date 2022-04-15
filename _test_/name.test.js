@@ -49,10 +49,13 @@ describe(`life expectancy`, () => {
     expect(userAge.jupLife()).toEqual(6.83);
   });
   test(`It should find the users years left on mercury.`, () => {
-        const userAge = new User(20, "female");
-        expect(userAge.mercYearsLeft()).toEqual(254.17);
-      });
-
+    const userAge = new User(20, "female");
+    expect(userAge.mercYearsLeft()).toEqual(254.17);
+  });
+  test(`It should find the users years left on venus.`, () => {
+    const userAge = new User(20, "female");
+      expect(userAge.venYearsLeft()).toEqual(98.39);
+  });
 });
 // describe(`life expectancy`, () => {
   
