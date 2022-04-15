@@ -21,13 +21,16 @@ export class User {
     return this.age * 11.86;
    }
    mercLife() { 
-    return parseFloat((this.life * .24).toFixed(2));
+    return parseFloat((this.life / .24).toFixed(2));
    }
    venLife() { 
-    return parseFloat((this.life * .62).toFixed(2));
+    return parseFloat((this.life / .62).toFixed(2));
    }
    marsLife() { 
-    return parseFloat((this.life * 1.88).toFixed(2));
+    return parseFloat((this.life / 1.88).toFixed(2));
+   }
+   jupLife() { 
+    return parseFloat((this.life / 11.86).toFixed(2));
    }
    
    
