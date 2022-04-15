@@ -46,4 +46,9 @@ marsYearsLeft() {
   let marsYear = parseFloat(this.marsLife().toFixed(2));
     return parseFloat(parseFloat(marsYear - marsAge).toFixed(2));
 }
+jupYearsLeft() {
+  let jupAge = parseFloat(this.jupAge().toFixed(2));
+  let jupYear = parseFloat(this.jupLife().toFixed(2));
+    return parseFloat(parseFloat(jupYear - jupAge).toFixed(2));
+}
 };

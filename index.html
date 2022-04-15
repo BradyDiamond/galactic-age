@@ -8,6 +8,26 @@
 <title>template</title>
 </head>
 <body>
-
+  <div id = "container">
+    <h3>How old are you on another planet?</h3>
+    <form id="planet-form">
+      <label for="age">Enter your age:</label>
+      <input id="age" type="number">
+    </form>
+    <div id="radio">
+      <label>
+        <input type="radio" name="sex" value="male" checked>
+        male
+      </label>
+      <label>
+        <input type="radio" name="sex" value="male">
+        female
+      </label>
+    </div>
+    <div id="btn">
+    <button type="submit" class="btn-dark">Find my age</button> 
+    </div>
+  </div>
+  <div id ="output"></div>
 </body>
 </html>

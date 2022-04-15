@@ -1,4 +1,4 @@
-import {User} from "./../src/galactic.js";
+import {User} from "../src/galactic-age.js";
 
 
 describe(`age`, () => {
@@ -60,16 +60,12 @@ describe(`life expectancy`, () => {
     const userAge = new User(20, "female");
       expect(userAge.marsYearsLeft()).toEqual(32.45);
   });
+  test(`It should find the users years left on jupiter.`, () => {
+    const userAge = new User(20, "female");
+      expect(userAge.jupYearsLeft()).toEqual(5.14);
+  });
+  test(`It should return.`, () => {
+    const userAge = new User(20, "female");
+      expect(userAge.jupYearsLeft()).toEqual(5.14);
+  });
 });
-// describe(`life expectancy`, () => {
-  
-//   test(`It should find the users years left on mercury.`, () => {
-//     const userAge = new User(20, "female");
-//     expect(userAge.YearsLeft()).toEqual(332.5);
-//   });
-// });
-
-
-
-// 78-men
-// 81-women
