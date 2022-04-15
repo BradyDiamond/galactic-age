@@ -7,4 +7,10 @@ describe(`age`, () => {
 
     expect(userAge.age).toEqual(20);
 });
+  test(`It should find the users age in mercury years.`, () => {
+    const userAge = new User(100);
+    userAge.mercAge();
+
+    expect(userAge.mercAge).toEqual(24);
+  });
 });
