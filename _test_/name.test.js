@@ -10,22 +10,22 @@ describe(`age`, () => {
 
   test(`It should find the users age in mercury years.`, () => {
     const userAge = new User(100, "male");
-    expect(userAge.mercAge()).toEqual(24);
+    expect(userAge.mercAge()).toEqual(416.67);
   });
 
   test(`It should find the users age in venus years.`, () => {
     const userAge = new User(100, "male");
-    expect(userAge.venAge()).toEqual(62);
+    expect(userAge.venAge()).toEqual(161.29);
   });
 
   test(`It should find the users age in mars years.`, () => {
     const userAge = new User(100, "male");
-    expect(userAge.marsAge()).toEqual(188);
+    expect(userAge.marsAge()).toEqual(53.19);
   });
 
   test(`It should find the users age in jupiter years.`, () => {
     const userAge = new User(100, "male");
-    expect(userAge.jupAge()).toEqual(1186);
+    expect(userAge.jupAge()).toEqual(8.43);
   });
 
 });
@@ -49,13 +49,13 @@ describe(`life expectancy`, () => {
     expect(userAge.jupLife()).toEqual(6.83);
   });
 });
-describe(`life expectancy`, () => {
+// describe(`life expectancy`, () => {
   
-  test(`It should find the users years left on mercury.`, () => {
-    const userAge = new User(20, "female");
-    expect(userAge.YearsLeft()).toEqual(332.5);
-  });
-});
+//   test(`It should find the users years left on mercury.`, () => {
+//     const userAge = new User(20, "female");
+//     expect(userAge.YearsLeft()).toEqual(332.5);
+//   });
+// });
 
 
 
