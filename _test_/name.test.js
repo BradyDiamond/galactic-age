@@ -1,5 +1,5 @@
 import {User} from "./../src/galactic.js";
-// import {UserLife} from "./../src/galactic.js";
+
 
 describe(`age`, () => {
   
@@ -47,6 +47,13 @@ describe(`life expectancy`, () => {
   test(`It should find the users life expectency on jupiter.`, () => {
     const userAge = new User(20, "female");
     expect(userAge.jupLife()).toEqual(6.83);
+  });
+});
+describe(`life expectancy`, () => {
+  
+  test(`It should find the users years left on mercury.`, () => {
+    const userAge = new User(20, "female");
+    expect(userAge.YearsLeft()).toEqual(332.5);
   });
 });
 

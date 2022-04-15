@@ -6,7 +6,7 @@ export class User {
     } else {
       this.life = 81
     }
-    
+    yearsLeft();
 }
   mercAge() { 
    return this.age * .24;
@@ -32,8 +32,9 @@ export class User {
    jupLife() { 
     return parseFloat((this.life / 11.86).toFixed(2));
    }
-   
-   
+  YearsLeft() { 
+    mercYearsLeft = (this.mercLife() - this.mercAge());
+    return mercYearsLeft;
 };
 // export class UserLife {
 //   constructor(age) {
