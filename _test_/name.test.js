@@ -11,6 +11,6 @@ describe(`age`, () => {
     const userAge = new User(100);
     userAge.mercAge();
 
-    expect(userAge.mercAge).toEqual(24);
+    expect(userAge.mercAge()).toEqual(24);
   });
 });

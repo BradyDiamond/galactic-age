@@ -3,6 +3,6 @@ export class User {
     this.age = age;
 }
   mercAge() { 
-   this.age * .24;
+   return this.age * .24;
   }
 };
