@@ -34,7 +34,11 @@ describe(`life expectancy`, () => {
   test(`It should find the users life expectency on mercury.`, () => {
     const userAge = new User(20, "female");
     expect(userAge.mercLife()).toEqual(19.44);
+  });
 
+  test(`It should find the users life expectency on venus.`, () => {
+    const userAge = new User(20, "female");
+    expect(userAge.venLife()).toEqual(50.22);
   });
 });
 

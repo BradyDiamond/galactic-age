@@ -23,6 +23,10 @@ export class User {
    mercLife() { 
     return parseFloat((this.life * .24).toFixed(2));
    }
+   venLife() { 
+    return parseFloat((this.life * .62).toFixed(2));
+   }
+   
    
 };
 // export class UserLife {
