@@ -26,6 +26,9 @@ export class User {
    venLife() { 
     return parseFloat((this.life * .62).toFixed(2));
    }
+   marsLife() { 
+    return parseFloat((this.life * 1.88).toFixed(2));
+   }
    
    
 };
