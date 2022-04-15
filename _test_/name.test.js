@@ -68,7 +68,15 @@ describe(`life expectancy`, () => {
     const userAge = new User(100, "female");
       expect(userAge.mercYearsLeft()).toEqual(79.17);
   });
-  test(`It should return a positive number if life expectancy has already been exceeded`, () => {
+      test(`It should return a positive number if life expectancy has already been exceeded on venus`, () => {
+        const userAge = new User(100, "female");
+          expect(userAge.venYearsLeft()).toEqual(30.64);
+  });
+  test(`It should return a positive number if life expectancy has already been exceeded on mars`, () => {
+    const userAge = new User(100, "female");
+      expect(userAge.marsYearsLeft()).toEqual(10.10);
+});
+  test(`It should return a positive number if life expectancy has already been exceeded on jupiter`, () => {
     const userAge = new User(100, "female");
       expect(userAge.jupYearsLeft()).toEqual(1.6);
   });
