@@ -56,6 +56,10 @@ describe(`life expectancy`, () => {
     const userAge = new User(20, "female");
       expect(userAge.venYearsLeft()).toEqual(98.39);
   });
+  test(`It should find the users years left on mars.`, () => {
+    const userAge = new User(20, "female");
+      expect(userAge.marsYearsLeft()).toEqual(32.45);
+  });
 });
 // describe(`life expectancy`, () => {
   

@@ -41,4 +41,9 @@ venYearsLeft() {
   let venYear = parseFloat(this.venLife().toFixed(2));
     return parseFloat(parseFloat(venYear - venAge).toFixed(2));
 }
+marsYearsLeft() {
+  let marsAge = parseFloat(this.marsAge().toFixed(2));
+  let marsYear = parseFloat(this.marsLife().toFixed(2));
+    return parseFloat(parseFloat(marsYear - marsAge).toFixed(2));
+}
 };
