@@ -71,4 +71,4 @@ jupYearsLeft() {
   return (result * -1)
 }
 }
-};
+}
